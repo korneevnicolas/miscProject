@@ -1,9 +1,18 @@
 import pyperclip
 
 spam = pyperclip.paste()
-spam = spam.replace('A.', '\r\nA.')
-spam = spam.replace('B.', '\r\nB.')
+
+addStr = ' '
+
+spam = spam.split('\n')
+for i in spam:
+    si = i.split('/')
+    si = si[0] + '\t' + si[2]
+    print(si)
+    addStr += str(si) + '\n'
 
 
-print(spam)
-pyperclip.copy(spam)
+
+print(addStr)
+
+pyperclip.copy(addStr)
