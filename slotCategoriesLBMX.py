@@ -49,7 +49,7 @@ string += '\r\n' + '\r\n'
 
 string += 'Postal/Zip Code: ' + s[7] + '\r\n'
 string += 'Province/State: ' + s[6] + '\r\n'
-string += 'Billing Type: Direct Bill' + '\r\n'
+string += 'Billing Type: Direct Bill or central pay' + '\r\n'
 string += 'Allow Supplier in Entry: Yes' + '\r\n'
 
 
