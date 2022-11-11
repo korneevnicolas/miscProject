@@ -2,7 +2,6 @@ import pyperclip
 
 s = pyperclip.paste()
 
-#split s by tabs
 s = s.split('\t')
 string = ''
 
